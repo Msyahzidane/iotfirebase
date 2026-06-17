@@ -1,0 +1,10 @@
+{
+  "name": "IoT Control Hub",
+  "description": "Smart IoT control panel for ESP devices via Firebase. Monitor temperature & humidity, and control relays with touch or voice.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
