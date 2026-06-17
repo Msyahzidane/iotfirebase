@@ -186,6 +186,18 @@ export default function Dashboard() {
        return;
     }
 
+    if (command.includes("variasi 2") || command.includes("variasi dua")) {
+       runAnimation2();
+       speak("Menjalankan variasi dua.");
+       return;
+    }
+
+    if (command.includes("hentikan variasi") || command.includes("berhenti variasi") || command.includes("stop animasi") || command.includes("hentikan animasi")) {
+       stopAnimation();
+       speak("Animasi dihentikan.");
+       return;
+    }
+
     setVoiceLog(`Perintah "${command}" tidak dikenali.`);
   };
 
